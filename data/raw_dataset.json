@@ -1,0 +1,1052 @@
+[
+  {
+    "company": "艾提科信科技有限公司",
+    "position": "算法工程工程师",
+    "location": "深圳",
+    "salary": "30-41K·13薪",
+    "skills": {
+      "dev_skills": [
+        "云原生架构",
+        "区块链底层开发",
+        "高并发系统设计"
+      ],
+      "lang_skills": [
+        "Go",
+        "Swift"
+      ],
+      "framework_skills": [
+        "Vue 3",
+        "Flutter"
+      ]
+    }
+  },
+  {
+    "company": "创亿网络有限公司",
+    "position": "算法工程架构师",
+    "location": "深圳",
+    "salary": "52-60K·14薪",
+    "skills": {
+      "dev_skills": [
+        "边缘计算优化",
+        "大数据处理",
+        "分布式事务处理"
+      ],
+      "lang_skills": [
+        "Scala",
+        "Kotlin"
+      ],
+      "framework_skills": [
+        "Spring Cloud",
+        "Vue 3"
+      ]
+    }
+  },
+  {
+    "company": "济南亿次元科技有限公司",
+    "position": "前端开发专家",
+    "location": "上海",
+    "salary": "54-51K·15薪",
+    "skills": {
+      "dev_skills": [
+        "分布式事务处理",
+        "AI算法工程化",
+        "云原生架构"
+      ],
+      "lang_skills": [
+        "Scala",
+        "Swift"
+      ],
+      "framework_skills": [
+        "gRPC",
+        "Vue 3"
+      ]
+    }
+  },
+  {
+    "company": "东方峻景传媒有限公司",
+    "position": "后端开发工程师",
+    "location": "深圳",
+    "salary": "28-56K·16薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "云原生架构",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "Scala",
+        "Go"
+      ],
+      "framework_skills": [
+        "Spring Cloud",
+        "Dubbo"
+      ]
+    }
+  },
+  {
+    "company": "中建创业网络有限公司",
+    "position": "前端开发专家",
+    "location": "广州",
+    "salary": "44-72K·14薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "AI算法工程化",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "Kotlin",
+        "Rust"
+      ],
+      "framework_skills": [
+        "Spring Cloud",
+        "Vue 3"
+      ]
+    }
+  },
+  {
+    "company": "双敏电子信息有限公司",
+    "position": "前端开发专家",
+    "location": "上海",
+    "salary": "31-74K·14薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "云原生架构",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "TypeScript",
+        "Swift"
+      ],
+      "framework_skills": [
+        "Flutter",
+        "PyTorch"
+      ]
+    }
+  },
+  {
+    "company": "海创网络有限公司",
+    "position": "前端开发工程师",
+    "location": "广州",
+    "salary": "34-71K·15薪",
+    "skills": {
+      "dev_skills": [
+        "微服务架构",
+        "低代码平台开发",
+        "云原生架构"
+      ],
+      "lang_skills": [
+        "Dart",
+        "Python"
+      ],
+      "framework_skills": [
+        "Vue 3",
+        "TensorFlow"
+      ]
+    }
+  },
+  {
+    "company": "昂歌信息传媒有限公司",
+    "position": "云原生专家",
+    "location": "深圳",
+    "salary": "58-66K·16薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "边缘计算优化",
+        "微服务架构"
+      ],
+      "lang_skills": [
+        "Swift",
+        "C++"
+      ],
+      "framework_skills": [
+        "React 18",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "company": "和泰信息有限公司",
+    "position": "后端开发工程师",
+    "location": "上海",
+    "salary": "31-67K·15薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "低代码平台开发",
+        "高并发系统设计"
+      ],
+      "lang_skills": [
+        "Scala",
+        "TypeScript"
+      ],
+      "framework_skills": [
+        "Spring Cloud",
+        "Dubbo"
+      ]
+    }
+  },
+  {
+    "company": "创汇信息有限公司",
+    "position": "云原生工程师",
+    "location": "杭州",
+    "salary": "43-65K·14薪",
+    "skills": {
+      "dev_skills": [
+        "边缘计算优化",
+        "低代码平台开发",
+        "分布式事务处理"
+      ],
+      "lang_skills": [
+        "TypeScript",
+        "Kotlin"
+      ],
+      "framework_skills": [
+        "React 18",
+        "Dubbo"
+      ]
+    }
+  },
+  {
+    "company": "黄石金承信息有限公司",
+    "position": "后端开发工程师",
+    "location": "上海",
+    "salary": "50-55K·14薪",
+    "skills": {
+      "dev_skills": [
+        "云原生架构",
+        "AI算法工程化",
+        "大数据处理"
+      ],
+      "lang_skills": [
+        "TypeScript",
+        "Go"
+      ],
+      "framework_skills": [
+        "Istio",
+        "React 18"
+      ]
+    }
+  },
+  {
+    "company": "菊风公司传媒有限公司",
+    "position": "云原生工程师",
+    "location": "广州",
+    "salary": "37-71K·15薪",
+    "skills": {
+      "dev_skills": [
+        "分布式事务处理",
+        "微服务架构",
+        "云原生架构"
+      ],
+      "lang_skills": [
+        "C++",
+        "Rust"
+      ],
+      "framework_skills": [
+        "TensorFlow",
+        "Dubbo"
+      ]
+    }
+  },
+  {
+    "company": "迪摩科技有限公司",
+    "position": "后端开发专家",
+    "location": "深圳",
+    "salary": "23-54K·16薪",
+    "skills": {
+      "dev_skills": [
+        "边缘计算优化",
+        "分布式事务处理",
+        "高并发系统设计"
+      ],
+      "lang_skills": [
+        "Python",
+        "Java 8+"
+      ],
+      "framework_skills": [
+        "React 18",
+        "TensorFlow"
+      ]
+    }
+  },
+  {
+    "company": "创汇传媒有限公司",
+    "position": "后端开发架构师",
+    "location": "深圳",
+    "salary": "53-70K·14薪",
+    "skills": {
+      "dev_skills": [
+        "云原生架构",
+        "大数据处理",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "Swift",
+        "Dart"
+      ],
+      "framework_skills": [
+        "React 18",
+        "Dubbo"
+      ]
+    }
+  },
+  {
+    "company": "九方科技有限公司",
+    "position": "云原生工程师",
+    "location": "杭州",
+    "salary": "46-73K·14薪",
+    "skills": {
+      "dev_skills": [
+        "微服务架构",
+        "云原生架构",
+        "大数据处理"
+      ],
+      "lang_skills": [
+        "Swift",
+        "Rust"
+      ],
+      "framework_skills": [
+        "React 18",
+        "Istio"
+      ]
+    }
+  },
+  {
+    "company": "双敏电子科技有限公司",
+    "position": "前端开发工程师",
+    "location": "北京",
+    "salary": "23-45K·13薪",
+    "skills": {
+      "dev_skills": [
+        "AI算法工程化",
+        "大数据处理",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "Scala",
+        "Swift"
+      ],
+      "framework_skills": [
+        "Kubernetes",
+        "TensorFlow"
+      ]
+    }
+  },
+  {
+    "company": "雨林木风计算机传媒有限公司",
+    "position": "算法工程专家",
+    "location": "上海",
+    "salary": "27-79K·13薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "微服务架构",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "Kotlin",
+        "Java 8+"
+      ],
+      "framework_skills": [
+        "PyTorch",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "company": "创亿信息有限公司",
+    "position": "云原生工程师",
+    "location": "广州",
+    "salary": "47-53K·14薪",
+    "skills": {
+      "dev_skills": [
+        "云原生架构",
+        "大数据处理",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "TypeScript",
+        "Rust"
+      ],
+      "framework_skills": [
+        "TensorFlow",
+        "PyTorch"
+      ]
+    }
+  },
+  {
+    "company": "戴硕电子网络有限公司",
+    "position": "后端开发专家",
+    "location": "杭州",
+    "salary": "48-40K·13薪",
+    "skills": {
+      "dev_skills": [
+        "分布式事务处理",
+        "高并发系统设计",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "Dart",
+        "Scala"
+      ],
+      "framework_skills": [
+        "Docker",
+        "PyTorch"
+      ]
+    }
+  },
+  {
+    "company": "诺依曼软件信息有限公司",
+    "position": "前端开发工程师",
+    "location": "杭州",
+    "salary": "40-65K·16薪",
+    "skills": {
+      "dev_skills": [
+        "边缘计算优化",
+        "分布式事务处理",
+        "区块链底层开发"
+      ],
+      "lang_skills": [
+        "Scala",
+        "C++"
+      ],
+      "framework_skills": [
+        "PyTorch",
+        "React 18"
+      ]
+    }
+  },
+  {
+    "company": "浦华众城信息有限公司",
+    "position": "后端开发架构师",
+    "location": "上海",
+    "salary": "41-73K·16薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "大数据处理",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "Go",
+        "Dart"
+      ],
+      "framework_skills": [
+        "Istio",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "company": "良诺信息有限公司",
+    "position": "算法工程架构师",
+    "location": "上海",
+    "salary": "28-59K·15薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "大数据处理",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "Dart",
+        "Rust"
+      ],
+      "framework_skills": [
+        "gRPC",
+        "React 18"
+      ]
+    }
+  },
+  {
+    "company": "九方信息有限公司",
+    "position": "后端开发架构师",
+    "location": "杭州",
+    "salary": "57-73K·14薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "高并发系统设计",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "C++",
+        "Dart"
+      ],
+      "framework_skills": [
+        "React 18",
+        "gRPC"
+      ]
+    }
+  },
+  {
+    "company": "昂歌信息科技有限公司",
+    "position": "后端开发工程师",
+    "location": "上海",
+    "salary": "44-73K·16薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "边缘计算优化",
+        "区块链底层开发"
+      ],
+      "lang_skills": [
+        "Python",
+        "Java 8+"
+      ],
+      "framework_skills": [
+        "Flutter",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "company": "创汇信息有限公司",
+    "position": "前端开发架构师",
+    "location": "上海",
+    "salary": "22-51K·13薪",
+    "skills": {
+      "dev_skills": [
+        "大数据处理",
+        "区块链底层开发",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "Kotlin",
+        "Python"
+      ],
+      "framework_skills": [
+        "Flutter",
+        "Spring Cloud"
+      ]
+    }
+  },
+  {
+    "company": "华远软件科技有限公司",
+    "position": "算法工程工程师",
+    "location": "北京",
+    "salary": "59-56K·15薪",
+    "skills": {
+      "dev_skills": [
+        "高并发系统设计",
+        "大数据处理",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "Python",
+        "Rust"
+      ],
+      "framework_skills": [
+        "Flutter",
+        "Vue 3"
+      ]
+    }
+  },
+  {
+    "company": "图龙信息网络有限公司",
+    "position": "后端开发架构师",
+    "location": "杭州",
+    "salary": "53-54K·15薪",
+    "skills": {
+      "dev_skills": [
+        "云原生架构",
+        "区块链底层开发",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "Swift",
+        "Java 8+"
+      ],
+      "framework_skills": [
+        "React 18",
+        "Istio"
+      ]
+    }
+  },
+  {
+    "company": "中建创业传媒有限公司",
+    "position": "云原生专家",
+    "location": "广州",
+    "salary": "30-65K·14薪",
+    "skills": {
+      "dev_skills": [
+        "分布式事务处理",
+        "低代码平台开发",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "Python",
+        "Dart"
+      ],
+      "framework_skills": [
+        "PyTorch",
+        "Spring Cloud"
+      ]
+    }
+  },
+  {
+    "company": "易动力科技有限公司",
+    "position": "前端开发工程师",
+    "location": "广州",
+    "salary": "32-41K·14薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "大数据处理",
+        "分布式事务处理"
+      ],
+      "lang_skills": [
+        "Java 8+",
+        "Go"
+      ],
+      "framework_skills": [
+        "gRPC",
+        "React 18"
+      ]
+    }
+  },
+  {
+    "company": "易动力传媒有限公司",
+    "position": "云原生工程师",
+    "location": "北京",
+    "salary": "22-79K·16薪",
+    "skills": {
+      "dev_skills": [
+        "高并发系统设计",
+        "AI算法工程化",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "TypeScript",
+        "C++"
+      ],
+      "framework_skills": [
+        "Istio",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "company": "双敏电子科技有限公司",
+    "position": "云原生专家",
+    "location": "上海",
+    "salary": "46-78K·14薪",
+    "skills": {
+      "dev_skills": [
+        "AI算法工程化",
+        "云原生架构",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "Rust",
+        "Scala"
+      ],
+      "framework_skills": [
+        "Istio",
+        "PyTorch"
+      ]
+    }
+  },
+  {
+    "company": "维旺明信息有限公司",
+    "position": "前端开发专家",
+    "location": "上海",
+    "salary": "21-61K·14薪",
+    "skills": {
+      "dev_skills": [
+        "大数据处理",
+        "云原生架构",
+        "高并发系统设计"
+      ],
+      "lang_skills": [
+        "Python",
+        "TypeScript"
+      ],
+      "framework_skills": [
+        "Dubbo",
+        "Istio"
+      ]
+    }
+  },
+  {
+    "company": "凌颖信息网络有限公司",
+    "position": "云原生架构师",
+    "location": "广州",
+    "salary": "50-40K·16薪",
+    "skills": {
+      "dev_skills": [
+        "微服务架构",
+        "区块链底层开发",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "Go",
+        "Dart"
+      ],
+      "framework_skills": [
+        "Flutter",
+        "Dubbo"
+      ]
+    }
+  },
+  {
+    "company": "开发区世创传媒有限公司",
+    "position": "云原生架构师",
+    "location": "广州",
+    "salary": "29-61K·16薪",
+    "skills": {
+      "dev_skills": [
+        "大数据处理",
+        "微服务架构",
+        "AI算法工程化"
+      ],
+      "lang_skills": [
+        "Go",
+        "Swift"
+      ],
+      "framework_skills": [
+        "Istio",
+        "Dubbo"
+      ]
+    }
+  },
+  {
+    "company": "华泰通安信息有限公司",
+    "position": "云原生工程师",
+    "location": "杭州",
+    "salary": "42-69K·16薪",
+    "skills": {
+      "dev_skills": [
+        "微服务架构",
+        "分布式事务处理",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "Go",
+        "Java 8+"
+      ],
+      "framework_skills": [
+        "Kubernetes",
+        "Istio"
+      ]
+    }
+  },
+  {
+    "company": "合联电子传媒有限公司",
+    "position": "云原生架构师",
+    "location": "上海",
+    "salary": "21-51K·14薪",
+    "skills": {
+      "dev_skills": [
+        "高并发系统设计",
+        "低代码平台开发",
+        "区块链底层开发"
+      ],
+      "lang_skills": [
+        "C++",
+        "Java 8+"
+      ],
+      "framework_skills": [
+        "Kubernetes",
+        "Istio"
+      ]
+    }
+  },
+  {
+    "company": "图龙信息网络有限公司",
+    "position": "前端开发专家",
+    "location": "杭州",
+    "salary": "40-63K·13薪",
+    "skills": {
+      "dev_skills": [
+        "高并发系统设计",
+        "大数据处理",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "Scala",
+        "TypeScript"
+      ],
+      "framework_skills": [
+        "Flutter",
+        "Vue 3"
+      ]
+    }
+  },
+  {
+    "company": "恩悌信息有限公司",
+    "position": "云原生专家",
+    "location": "广州",
+    "salary": "46-55K·13薪",
+    "skills": {
+      "dev_skills": [
+        "AI算法工程化",
+        "云原生架构",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "TypeScript",
+        "Go"
+      ],
+      "framework_skills": [
+        "Kubernetes",
+        "Spring Cloud"
+      ]
+    }
+  },
+  {
+    "company": "时刻传媒有限公司",
+    "position": "云原生专家",
+    "location": "北京",
+    "salary": "24-72K·13薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "微服务架构",
+        "区块链底层开发"
+      ],
+      "lang_skills": [
+        "TypeScript",
+        "Java 8+"
+      ],
+      "framework_skills": [
+        "Dubbo",
+        "React 18"
+      ]
+    }
+  },
+  {
+    "company": "中建创业科技有限公司",
+    "position": "云原生专家",
+    "location": "广州",
+    "salary": "37-55K·14薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "分布式事务处理",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "Scala",
+        "TypeScript"
+      ],
+      "framework_skills": [
+        "React 18",
+        "Spring Cloud"
+      ]
+    }
+  },
+  {
+    "company": "华远软件传媒有限公司",
+    "position": "算法工程架构师",
+    "location": "北京",
+    "salary": "31-60K·13薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "区块链底层开发",
+        "云原生架构"
+      ],
+      "lang_skills": [
+        "Swift",
+        "TypeScript"
+      ],
+      "framework_skills": [
+        "Spring Cloud",
+        "gRPC"
+      ]
+    }
+  },
+  {
+    "company": "国讯网络有限公司",
+    "position": "后端开发专家",
+    "location": "北京",
+    "salary": "41-72K·13薪",
+    "skills": {
+      "dev_skills": [
+        "边缘计算优化",
+        "分布式事务处理",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "Go",
+        "Rust"
+      ],
+      "framework_skills": [
+        "React 18",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "company": "时空盒数字传媒有限公司",
+    "position": "算法工程专家",
+    "location": "广州",
+    "salary": "37-72K·13薪",
+    "skills": {
+      "dev_skills": [
+        "AI算法工程化",
+        "微服务架构",
+        "大数据处理"
+      ],
+      "lang_skills": [
+        "Dart",
+        "Kotlin"
+      ],
+      "framework_skills": [
+        "Kubernetes",
+        "PyTorch"
+      ]
+    }
+  },
+  {
+    "company": "创亿信息有限公司",
+    "position": "前端开发架构师",
+    "location": "广州",
+    "salary": "33-71K·15薪",
+    "skills": {
+      "dev_skills": [
+        "分布式事务处理",
+        "云原生架构",
+        "区块链底层开发"
+      ],
+      "lang_skills": [
+        "Java 8+",
+        "Scala"
+      ],
+      "framework_skills": [
+        "Istio",
+        "Flutter"
+      ]
+    }
+  },
+  {
+    "company": "浙大万朋传媒有限公司",
+    "position": "后端开发架构师",
+    "location": "广州",
+    "salary": "38-55K·15薪",
+    "skills": {
+      "dev_skills": [
+        "分布式事务处理",
+        "AI算法工程化",
+        "低代码平台开发"
+      ],
+      "lang_skills": [
+        "Python",
+        "Scala"
+      ],
+      "framework_skills": [
+        "Kubernetes",
+        "Spring Cloud"
+      ]
+    }
+  },
+  {
+    "company": "网新恒天传媒有限公司",
+    "position": "前端开发架构师",
+    "location": "深圳",
+    "salary": "37-41K·15薪",
+    "skills": {
+      "dev_skills": [
+        "低代码平台开发",
+        "区块链底层开发",
+        "边缘计算优化"
+      ],
+      "lang_skills": [
+        "Scala",
+        "Swift"
+      ],
+      "framework_skills": [
+        "Kubernetes",
+        "Spring Cloud"
+      ]
+    }
+  },
+  {
+    "company": "凌颖信息传媒有限公司",
+    "position": "后端开发专家",
+    "location": "杭州",
+    "salary": "36-61K·14薪",
+    "skills": {
+      "dev_skills": [
+        "区块链底层开发",
+        "低代码平台开发",
+        "分布式事务处理"
+      ],
+      "lang_skills": [
+        "Scala",
+        "Go"
+      ],
+      "framework_skills": [
+        "gRPC",
+        "Spring Cloud"
+      ]
+    }
+  },
+  {
+    "company": "新宇龙信息网络有限公司",
+    "position": "后端开发架构师",
+    "location": "北京",
+    "salary": "57-74K·14薪",
+    "skills": {
+      "dev_skills": [
+        "边缘计算优化",
+        "微服务架构",
+        "高并发系统设计"
+      ],
+      "lang_skills": [
+        "Go",
+        "Rust"
+      ],
+      "framework_skills": [
+        "gRPC",
+        "Flutter"
+      ]
+    }
+  },
+  {
+    "company": "时刻科技有限公司",
+    "position": "云原生专家",
+    "location": "深圳",
+    "salary": "52-60K·15薪",
+    "skills": {
+      "dev_skills": [
+        "AI算法工程化",
+        "微服务架构",
+        "区块链底层开发"
+      ],
+      "lang_skills": [
+        "Dart",
+        "Python"
+      ],
+      "framework_skills": [
+        "Dubbo",
+        "gRPC"
+      ]
+    }
+  },
+  {
+    "company": "飞利信传媒有限公司",
+    "position": "算法工程专家",
+    "location": "上海",
+    "salary": "35-52K·14薪",
+    "skills": {
+      "dev_skills": [
+        "AI算法工程化",
+        "大数据处理",
+        "云原生架构"
+      ],
+      "lang_skills": [
+        "Scala",
+        "Rust"
+      ],
+      "framework_skills": [
+        "Flutter",
+        "Kubernetes"
+      ]
+    }
+  }
+]
