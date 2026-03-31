@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import os
 from datetime import datetime
-from config import ModelServiceConfig
+from src.config import ModelServiceConfig
 from pathlib import Path
 
 class EvaluationReport:

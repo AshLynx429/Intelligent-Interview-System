@@ -1,7 +1,7 @@
 from enum import Enum, auto
 import json
 from pathlib import Path
-from model_service.model_service import ModelService
+from src.model_service import ModelService
 
 
 def get_data_path(filename: str) -> Path:
@@ -21,13 +21,13 @@ class InterviewState(Enum):
 
 class InterviewDialogEngine:
     def __init__(self):
-        self.current_state = InterviewState.INITIAL
-        self.session_data = {
-            "qa_records": [],
-            "questions": [],
-            "probing_map": {},
-            "position": "",
-            "prob_count": 0
+        self.current_state = InterviewState.INITIAL  # 从初始状态开始
+        self.session_data = {  # 会话数据（记录面试全过程）
+            "qa_records": [],   # 问答记录（问题、答案、评分）
+            "questions": [],  # 题目列表
+            "probing_map": {},  # 追问映射（哪些问题有追问）
+            "position": "",  # 应聘职位
+            "prob_count": 0  # 已追问次数
         }
         self.model_service = ModelService()
         self._init_user_info()
@@ -40,25 +40,35 @@ class InterviewDialogEngine:
         print(f"\n{name}你好，欢迎参加本次面试！")
 
     def _init_questions(self):
-        position_map = {"高级系统工程师": ["分布式系统", "系统设计"]}
+        # 1. 加载题库
         json_path = get_data_path("reference_answers.json")
-
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        categories = position_map.get(self.session_data["position"], [])
+        # 2. 根据职位关键词，自动匹配技能领域
+        position = self.session_data["position"]
+        matched_categories = []
+
+        # 规则匹配：如果职位包含"Python"，就加Python相关的题
+        if "Python" in position or "算法" in position or "开发" in position:
+            matched_categories.append("Python")
+        if "系统" in position or "架构" in position or "分布式" in position:
+            matched_categories.append("分布式系统")
+        if "数据" in position or "数据库" in position:
+            matched_categories.append("数据库")
+
+        # 如果没有匹配到任何领域，默认取前两个
+        if not matched_categories:
+            matched_categories = list(data.keys())[:2]
+
+        # 3. 从匹配的领域里取题目
         self.session_data["questions"] = []
-        for category in categories:
-            self.session_data["questions"].extend(list(data.get(category, {}).keys())[:3])
+        for category in matched_categories:
+            if category in data:
+                questions = list(data[category].keys())
+                self.session_data["questions"].extend(questions[:3])  # 每个领域取前3道
 
-        self.session_data["questions"] = self.session_data["questions"][:6]
-        self._build_prob_map()
-
-    def _build_prob_map(self):
-        self.session_data["probing_map"] = {
-            "请解释CAP定理": "请举例说明CAP定理在实际系统中的应用",
-            "如何设计高并发系统？": "请详细说明缓存机制的设计要点"
-        }
+        self.session_data["questions"] = self.session_data["questions"][:6]  # 总共不超过6道
 
     def start_interview(self):
         while self.current_state != InterviewState.TERMINATED:
@@ -73,6 +83,8 @@ class InterviewDialogEngine:
 
         elif self.current_state == InterviewState.QUESTIONING:
             answered = len([r for r in self.session_data["qa_records"] if not r.get("is_probing")])
+            total = len(self.session_data["questions"])
+            print(f"DEBUG: answered={answered}, total={total}")
             if answered < len(self.session_data["questions"]):
                 question = self.session_data["questions"][answered]
                 print(f"\n[问题 {answered + 1}] {question}")
@@ -98,11 +110,15 @@ class InterviewDialogEngine:
             current_qa["evaluation"] = result
             print(f"\n[系统] 得分：{result['metrics']['composite_score']}，难度：{result['new_difficulty']}")
 
-            if (result['metrics']['composite_score'] < 80
-                    and self.session_data["prob_count"] < 2
-                    and current_qa["question"] in self.session_data["probing_map"]):
+            # 判断是否需要追问
+            if (result['metrics']['composite_score'] < 80 and self.session_data["prob_count"] < 2):
+                # 使用硬编码追问（先稳定状态机）
+                probing_question = "请详细说明一下你的回答"
+                self.session_data["probing_map"][current_qa["question"]] = probing_question
                 self._transition(InterviewState.PROBING)
             else:
+                # 重置追问计数（因为已经答完当前问题，进入下一题）
+                self.session_data["prob_count"] = 0
                 self._transition(InterviewState.QUESTIONING)
 
         elif self.current_state == InterviewState.PROBING:
@@ -115,7 +131,7 @@ class InterviewDialogEngine:
                     "answer": None,
                     "is_probing": True
                 })
-                self.session_data["prob_count"] += 1
+                self.session_data["prob_count"] += 1  # 关键：追问次数+1
                 self._transition(InterviewState.ANSWERING)
             else:
                 self._transition(InterviewState.QUESTIONING)

@@ -5,7 +5,7 @@ import jieba.analyse
 import json
 from typing import Dict, Tuple
 from transformers import AutoModel, AutoTokenizer
-from config import ModelServiceConfig
+from src.config import ModelServiceConfig
 from pathlib import Path
 
 
@@ -110,3 +110,9 @@ class ModelService:
             return {"metrics": metrics, "new_difficulty": new_level}
         except Exception as e:
             return {"error": str(e)}
+
+    def generate_probing_question(self, question: str, answer: str) -> str:
+        """根据问题和答案，生成追问"""
+        prompt = f"用户回答：{answer}\n原问题：{question}\n请根据用户回答，生成一个追问问题，引导用户深入回答。追问要简短，一句话。"
+        response, _ = self.model.chat(self.tokenizer, prompt, history=[])
+        return response
