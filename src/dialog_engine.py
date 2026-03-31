@@ -112,8 +112,11 @@ class InterviewDialogEngine:
 
             # 判断是否需要追问
             if (result['metrics']['composite_score'] < 80 and self.session_data["prob_count"] < 2):
-                # 使用硬编码追问（先稳定状态机）
-                probing_question = "请详细说明一下你的回答"
+                # 动态生成追问
+                probing_question = self.model_service.generate_probing_question(
+                    current_qa["question"],
+                    answer
+                )
                 self.session_data["probing_map"][current_qa["question"]] = probing_question
                 self._transition(InterviewState.PROBING)
             else:
