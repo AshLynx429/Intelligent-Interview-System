@@ -1,8 +1,21 @@
+# 核心深度学习框架
 torch>=2.0.0
-transformers>=4.30.0
-jieba
-matplotlib
-numpy
-pandas
-bitsandbytes
-accelerate
+transformers>=4.30.2
+accelerate>=0.20.3
+bitsandbytes>=0.39.0
+sentence-transformers>=2.2.2
+
+# 向量数据库与检索
+chromadb>=0.4.0
+
+# NLP 与 文本处理
+jieba>=0.42.1
+scipy>=1.10.0
+
+# 数据可视化与报告
+matplotlib>=3.7.1
+numpy>=1.24.3
+
+# 其他工具
+pathlib
+tqdm
